@@ -1,4 +1,5 @@
-import io.quarkus.runtime.Quarkus;
+package org.nicholas.mybatiswithquarkus;
+
 import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
 import jakarta.inject.Inject;
@@ -30,7 +31,7 @@ public class Main implements QuarkusApplication {
 }
 //OR
 //@QuarkusMain
-//public class Main {
+//public class org.nicholas.mybatiswithquarkus.Main {
 //    public static void main(String[] args) {
 //        Quarkus.run(args);
 //    }
